@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./button.css" />
+  </head>
+  <body>
+    <!-- <video loop muted autoplay>
+      <source src="./assets/video.mp4" type="video/mp4" />
+    </video> -->
+    <nav>
+      <div class="left">
+        <a href="#"> Acetrix </a>
+      </div>
+      <div class="right">
+        <a href="#">Home</a>
+        <a href="#">Merch</a>
+        <a href="#">Event</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <video loop muted autoplay class="video-background">
+        <source src="./assets/video.mp4" type="video/mp4" />
+        <!-- <source src="./assets/acetrix intro 1.mp4" type="video/mp4" /> -->
+        Your browser does not support the video tag.
+      </video>
+      <div class="bg-overlay"></div>
+      <div class="content">
+        <img class="logo" src="./assets/logo.png" alt="acetrix-logo" />
+        <img class="text-logo" src="./assets/acetrix.png" alt="acetrix" />
+        <div>
+          <button type="button" class="btn">
+            <span class="btn__inner">
+              <span class="btn__slide"></span>
+              <span class="btn__content">Ace Theophage</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
