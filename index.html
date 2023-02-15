@@ -6,13 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
+      integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/video-section.css" />
+    <link rel="stylesheet" href="/style/about-section.css" />
+    <link rel="stylesheet" href="/style/contact-section.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
     <link rel="stylesheet" href="./button.css" />
   </head>
   <body>
-    <!-- <video loop muted autoplay>
-      <source src="./assets/video.mp4" type="video/mp4" />
-    </video> -->
     <nav>
       <div class="left">
         <a href="#"> Acetrix </a>
@@ -26,10 +43,10 @@
       </div>
     </nav>
 
+    <!-- Video Section -->
     <div class="video-container">
       <video loop muted autoplay class="video-background">
         <source src="./assets/video.mp4" type="video/mp4" />
-        <!-- <source src="./assets/acetrix intro 1.mp4" type="video/mp4" /> -->
         Your browser does not support the video tag.
       </video>
       <div class="bg-overlay"></div>
@@ -46,6 +63,134 @@
         </div>
       </div>
     </div>
+
+    <!-- About section  -->
+    <section class="about-section">
+      <img class="about-bg" src="./assets/about.jpg" alt="about acetrix" />
+      <div class="about">
+        <h2>About Acetrix</h2>
+        <p>
+          We are Esports gaming community. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Commodi eius quo ut omnis fuga qui dicta
+          itaque minima impedit laboriosam.
+        </p>
+      </div>
+
+      <div class="founder-wrapper">
+        <div class="cofounder">
+          <i class="icon fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            recusandae est pariatur ducimus iste nesciunt rerum repudiandae
+            reprehenderit? Dolore, eum!
+          </p>
+          <img src="./assets/matangVai.png" alt="mayank-patley" />
+          <h2>Co founder</h2>
+        </div>
+        <div class="founder">
+          <i class="icon fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            recusandae est pariatur ducimus iste nesciunt rerum repudiandae
+            reprehenderit? Dolore, eum!
+          </p>
+          <img src="./assets/matangVai.png" alt="mayank-patley" />
+          <h2>Founder</h2>
+        </div>
+        <div class="cofounder">
+          <i class="icon fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            recusandae est pariatur ducimus iste nesciunt rerum repudiandae
+            reprehenderit? Dolore, eum!
+          </p>
+          <img src="./assets/matangVai.png" alt="mayank-patley" />
+          <h2>Co founder</h2>
+        </div>
+      </div>
+      <!-- <img src="./assets/logo.png" alt="acetrix logo" /> -->
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section">
+      <img
+        class="contact-bg"
+        src="./assets/contact.jpg"
+        alt="contact acetrix"
+      />
+      <img class="text-logo" src="./assets/acetrix.png" alt="acetrix" />
+
+      <h2>We create environment for you to espace the boring college life.</h2>
+      <div class="btn-container">
+        <button type="button" class="btn btn--light">
+          <span class="btn__inner">
+            <span class="btn__slide"></span>
+            <span class="btn__content">Register</span>
+          </span>
+        </button>
+        <button type="button" class="btn">
+          <span class="btn__inner">
+            <span class="btn__slide"></span>
+            <span class="btn__content">Contact</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <h2>We code for a cause.</h2>
+      <div class="right">
+        <div class="container">
+          <ul class="links">
+            <li>
+              <a href="#"> Contact Us </a>
+            </li>
+            <li>
+              <a href="#"> Visit </a>
+            </li>
+            <li>
+              <a href="#"> Gallery </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container">
+          <ul class="links">
+            <li>
+              <a href="#"> About </a>
+            </li>
+            <li>
+              <a href="#"> Valorant</a>
+            </li>
+            <li>
+              <a href="#"> COD </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="links">
+            <li>
+              <i
+                class="icon fa-brands fa-instagram"
+                style="font-size: 2rem"
+              ></i>
+              <a href="#"> Instagram </a>
+            </li>
+            <li>
+              <i class="icon fa-brands fa-youtube"></i>
+              <a href="#"> Youtube </a>
+            </li>
+            <li>
+              <i class="icon fa-brands fa-discord"></i>
+              <a href="#"> Discord </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">Copyright @Acetrix 2023</div>
+
     <script src="./script.js"></script>
   </body>
 </html>
