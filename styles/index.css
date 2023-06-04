@@ -1,5 +1,10 @@
 @import url("http://fonts.cdnfonts.com/css/valorant");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import "./navbar.css";
+@import "./video.css";
+@import "./about.css";
+@import "./contact.css";
+@import "./footer.css";
 
 * {
   font-family: "VALORANT", sans-serif;
